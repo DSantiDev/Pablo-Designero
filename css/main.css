@@ -1,0 +1,29 @@
+* {
+    border: 1px dotted blue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Epilogue", sans-serif;
+}
+/** header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 26px auto;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+nav.navbar {
+    display: none;
+}
+ul.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
