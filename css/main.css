@@ -1,5 +1,4 @@
 * {
-    border: 1px dotted blue;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,6 +14,9 @@ body {
     width: 90%;
     margin: 26px auto;
 }
+.header{
+    background-color: aqua;
+}
 .logo {
     font-size: 20px;
     font-weight: 600;
@@ -26,4 +28,17 @@ ul.main-menu {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+main.main {
+    background-color: #F9E6F0;
+}
+
+@media ( min-width: 768px ) {
+    .hamburger-icon {
+        display: none;
+    }
+    nav.navbar {
+        display: block;
+    }
+    
 }
