@@ -7,15 +7,19 @@ body {
     font-family: "Epilogue", sans-serif;
 }
 /** header */
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+.menu-item a:hover {
+    color: #aa0909;
+}
 .container {
-    display: flex;
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     width: 90%;
     margin: 26px auto;
-}
-.header{
-    background-color: aqua;
 }
 .logo {
     font-size: 20px;
@@ -28,6 +32,10 @@ ul.main-menu {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .3rem;
 }
 main.main {
     background-color: #F9E6F0;
