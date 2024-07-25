@@ -20,7 +20,16 @@
 body {
     font-family: "Epilogue", sans-serif;
 }
+p {
+    line-height: 1.4;
+    font-size: 17px;
+}
+
 /** header */
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
 .menu-item a {
     text-decoration: none;
     color: var( --color-menu-link );
@@ -38,10 +47,7 @@ body {
     align-items: center;
     margin: 26px auto;
 }
-.logo {
-    font-size: 20px;
-    font-weight: 600;
-}
+
 nav.navbar {
     display: none;
 }
@@ -68,4 +74,33 @@ ul.main-menu {
 /** Main: Section Bio */
 .bio{
     background-color: var( --pink-lace);
+}
+p.his-unicorn{
+    background-color: var( --paolo-veronese-green);
+}
+@media  ( min-width: 768px ) {
+    .bio-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 60%;
+        padding: 7rem 0;
+    }
+    .historia{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 70%;
+        padding: 7rem 0; 
+        font-size: 24px;
+    }
+    .his-unicorn{
+        gap: 2rem;
+        width: 70%;
+        padding: 7rem 0; 
+        font-size: 24px;
+        
+    }
 }
