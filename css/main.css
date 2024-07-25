@@ -29,10 +29,13 @@ body {
     color: #aa0909;
 }
 .container {
+    width: 90%;
+    margin: 0 auto;
+}
+.logo-navbar{
     display: flex;  
     justify-content: space-between;
     align-items: center;
-    width: 90%;
     margin: 26px auto;
 }
 .logo {
@@ -51,9 +54,6 @@ ul.main-menu {
     align-items: center;
     gap: .5rem;
 }
-main.main {
-    background-color: #F9E6F0;
-}
 
 @media ( min-width: 768px ) {
     .hamburger-icon {
@@ -63,4 +63,9 @@ main.main {
         display: block;
     }
     
+}
+
+/** Main: Section Bio */
+.bio{
+    background-color: var( --pink-lace);
 }
