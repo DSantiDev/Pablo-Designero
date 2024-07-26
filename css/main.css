@@ -75,9 +75,108 @@ ul.main-menu {
 .bio{
     background-color: var( --pink-lace);
 }
-p.his-unicorn{
+.unicorn {
     background-color: var( --paolo-veronese-green);
+    color: var(--white);
 }
+.bread   {
+    background-color: var( --paolo-veronese-green);
+    color: var(--white);
+}
+
+.container.his-content {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+p.history {
+    font-size: 24px;
+}
+.form-contact input{
+    background-color: var(--anti-flash-white);
+    border: 0px;
+}
+.black-button{
+    background-color: black;
+    color: #ffffff;
+    width: 235px;
+    height: 80px;
+}
+.container-from {
+    padding-bottom: 40px
+}
+.type{
+    width: 530px;
+    height: 231px;
+    background-color: var(--anti-flash-white);
+    border: 0px;
+    resize: none;
+    outline:none;
+    border-radius: 5px;
+}
+.text-name{
+    width: 530px;
+    height: 69px;
+    outline:none; 
+    border-radius: 5px;
+}
+.text-email{
+    width: 530px;
+    height: 69px;
+    outline:none;
+    border-radius: 5px;
+}
+.works{
+    font-size: 32px;
+}
+.work {
+    display: flex;
+}
+p.description-work {
+    padding: 50px 150px 0px 98px;
+}
+strong.works {
+    padding-left: 100px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.lets-work {
+    flex-basis: 50%;
+}
+.contact-form {
+    flex-basis: 50%;
+}
+.images-contact{
+    padding: 50px 0px 0px 98px;
+}
+ul.social-media{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+input.text-name {
+    margin-bottom: 1rem;
+}
+input.text-email {
+    margin-bottom: 1rem;
+}
+input.type {
+    margin-bottom: 1rem;
+}
+input::placeholder {
+    font-size: 17px;
+    color: var(--charleston-green-v1);
+    padding-left: 30px;
+  }
+textarea::placeholder {
+    font-size: 17px;
+    color: var(--charleston-green-v1);
+    padding: 30px 0px 0px 30px;
+  }
+  
 @media  ( min-width: 768px ) {
     .bio-content{
         display: flex;
@@ -88,13 +187,17 @@ p.his-unicorn{
         padding: 7rem 0;
     }
     .historia{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2rem;
         width: 70%;
-        padding: 7rem 0; 
+        padding: 5rem 0; 
         font-size: 24px;
+        margin: 0px auto;
+
+    }
+    .paragraf{
+        width: 70%;
+        font-size: 24px;
+        margin: 0px auto;
+        padding: 0px 0px 100px 0px;
     }
     .his-unicorn{
         gap: 2rem;
@@ -104,3 +207,4 @@ p.his-unicorn{
         
     }
 }
+
