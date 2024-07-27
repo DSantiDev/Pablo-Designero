@@ -7,7 +7,8 @@
     --pink-lace: #F9E6F0;
     --piggy-pink: #F6DCE9;
     --anti-flash-white: #F3F3F3;
-    --white: #ffffff;  
+    --white: #ffffff;
+    --height-input: 69px;  
 
     /**/
     --color-menu-link: var(--charleston-green-v1);
@@ -47,7 +48,6 @@ p {
     align-items: center;
     margin: 26px auto;
 }
-
 nav.navbar {
     display: none;
 }
@@ -58,9 +58,21 @@ ul.main-menu {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: .5rem;
+    gap: 4rem;
 }
-
+img.avatar-image {
+    padding-top: 100px;
+}
+strong.avatar-name {
+    display: flex;
+    padding-top: 15px;
+}
+p.profession {
+    padding: 5px 200px 0px 0px;
+}
+.biography {
+    padding: 100px 100px 100px 0px;
+}
 @media ( min-width: 768px ) {
     .hamburger-icon {
         display: none;
@@ -78,104 +90,79 @@ ul.main-menu {
 .unicorn {
     background-color: var( --paolo-veronese-green);
     color: var(--white);
+    font-weight: 500;
 }
 .bread   {
     background-color: var( --paolo-veronese-green);
     color: var(--white);
+    font-weight: 500;
 }
-
 .container.his-content {
     font-size: 16px;
     display: flex;
     flex-direction: column;
 }
+.paragraf{
+    padding-bottom: 100px;
+}
 p.history {
     font-size: 24px;
+    font-weight: 500;
+    padding: 100px 50px 50px 0px;
 }
 .form-contact input{
     background-color: var(--anti-flash-white);
     border: 0px;
 }
+.container-from {
+    padding-bottom: 40px
+}
+.form-input{
+    width: 100%;
+    height: var(--height-input);
+    outline:none; 
+    border: none;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 25px;
+}
+textarea.form-input{
+    height: calc( var(--height-input) * 3); 
+}
+input::placeholder {
+    font-size: 17px;
+    color: var(--charleston-green-v1);
+    
+  }
+textarea::placeholder {
+    font-size: 17px;
+    color: var(--charleston-green-v1);
+  }
 .black-button{
     background-color: black;
     color: #ffffff;
     width: 235px;
     height: 80px;
-}
-.container-from {
-    padding-bottom: 40px
-}
-.type{
-    width: 530px;
-    height: 231px;
-    background-color: var(--anti-flash-white);
-    border: 0px;
-    resize: none;
-    outline:none;
-    border-radius: 5px;
-}
-.text-name{
-    width: 530px;
-    height: 69px;
-    outline:none; 
-    border-radius: 5px;
-}
-.text-email{
-    width: 530px;
-    height: 69px;
-    outline:none;
+    border: 1px solid transparent;
     border-radius: 5px;
 }
 .works{
     font-size: 32px;
+    padding-right: 100px;
 }
 .work {
     display: flex;
-}
-p.description-work {
-    padding: 50px 150px 0px 98px;
-}
-strong.works {
-    padding-left: 100px;
-}
-.content {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.lets-work {
-    flex-basis: 50%;
-}
-.contact-form {
-    flex-basis: 50%;
-}
-.images-contact{
-    padding: 50px 0px 0px 98px;
 }
 ul.social-media{
     list-style: none;
     display: flex;
     gap: 2rem;
+    padding-bottom: 70px;
 }
-input.text-name {
-    margin-bottom: 1rem;
-}
-input.text-email {
-    margin-bottom: 1rem;
-}
-input.type {
-    margin-bottom: 1rem;
-}
-input::placeholder {
-    font-size: 17px;
-    color: var(--charleston-green-v1);
-    padding-left: 30px;
-  }
-textarea::placeholder {
-    font-size: 17px;
-    color: var(--charleston-green-v1);
-    padding: 30px 0px 0px 30px;
-  }
+
   
 @media  ( min-width: 768px ) {
     .bio-content{
@@ -197,14 +184,33 @@ textarea::placeholder {
         width: 70%;
         font-size: 24px;
         margin: 0px auto;
-        padding: 0px 0px 100px 0px;
+        padding-bottom: 100px;
     }
     .his-unicorn{
         gap: 2rem;
         width: 70%;
         padding: 7rem 0; 
-        font-size: 24px;
-        
+        font-size: 24px;  
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .lets-work {
+        flex-basis: 50%;
+    }
+    .form {
+        flex-basis: 50%;
+    }
+    p.description-work {
+        padding: 50px 150px 0px 98px;
+    }
+    strong.works {
+        padding-left: 100px;
+    }
+    .images-contact{
+        padding: 50px 0px 0px 98px;
     }
 }
 
