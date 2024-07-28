@@ -7,37 +7,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- NormalizeCCS -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     
 </head>
 <body>
-    <header class="header">
-        <div class="container logo-navbar">   
-            <div class="logo">Logo</div>
-            <nav class="navbar">
-                <ul class="main-menu">
-                    <li class="menu-item">
-                        <strong><a href="#">About</a></strong>
+    <header>
+        <div class="container logo-navbar"> 
+            <div><a title="logo" href="index.html"><img class="logo" src="./images/Logo.png" alt="image-bereal" /></a></div>
+            <button id="abrir" class="abrir-menu">
+                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="21" cy="4" r="4" fill="#2D2D2D"/>
+                <circle cx="21" cy="19" r="4" fill="#2D2D2D"/>
+                <circle cx="4" cy="4" r="4" fill="#2D2D2D"/>
+                <circle cx="4" cy="19" r="4" fill="#2D2D2D"/>
+                </svg>
+            </button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="main-menu" id="quitar">
+                    <li class="menu-item" >
+                        <strong><a href="#bio" >About</a></strong>
                     </li>
                     <li class="menu-item">
-                        <strong><a href="#">Work</a></strong>
+                        <strong><a href="#desc" >Work</a></strong>
                     </li>
                     <li class="menu-item">
-                        <strong><a href="#">Contact</a></strong>
+                        <strong><a href="#form" >Contact</a></strong>
                     </li>
                 </ul>
             </nav>
-            <img class="hamburger-icon" src="./images/menu.svg" alt="hamburger-icon">
         </div>
     </header>
     <main class="main">
-        <section class="bio">
+        <section class="bio" id="bio">
             <div class="container bio-content">
                 <div class="avatar">
                     <img class="avatar-image" src="./images/pablo-designero.png" alt="Foto: Pablo Designero" >
-                    <strong class="avatar-name">Pablo Designero</strong>
+                    <h1><strong class="avatar-name">Pablo Designero</strong></h1>
                     <p class="profession">Designer & Unicorn Trainer</p>
                 </div>
                 <div class="biography">
@@ -48,7 +57,7 @@
                 </div>
             </div>
         </section> 
-        <section class="description">
+        <section class="description" id="desc">
             <div class="container his-content">
                 <div class="historia">
                     <p class="history">When I was 5, I got adbucted by a unicorn family. When they returned me to earth, 
@@ -79,8 +88,9 @@
             </div>
         </section>
     </main>
+    <div class="linea"></div>
     <footer class="footer">
-        <div class="container-from">
+        <div class="container-from" id="form">
             <div class="container content">
                 <div class="lets-work">
                     <strong class="works">Let’s work together</strong>
