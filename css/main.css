@@ -167,9 +167,6 @@ img.avatar-image {
 .bio{
     background-color: var(--piggy-pink);
 }
-p.history {
-    padding: 100px 100px 50px 0px;
-}
 .unicorn,
 .bread   {
     background-color: var( --paolo-veronese-green);
@@ -181,17 +178,18 @@ p.history {
     display: flex;
     flex-direction: column;
 }
-.paragraf{
-    padding-bottom: 100px;
-}
 p.history {
     font-size: 24px;
     font-weight: 500;
+    padding: 100px 100px 50px 0px;
 }
 .linea {
     border-bottom: solid;
     margin: 90px;
 }
+
+/** footer*/
+
 .form-contact textarea,
 .form-contact input{
     background-color: var(--anti-flash-white);
@@ -220,18 +218,28 @@ textarea::placeholder {
     font-size: 17px;
     color: var(--charleston-green-v1);  
   }
-.black-button{
-    background-color: black;
-    color: #ffffff;
+  .btn {
+    border: none;
     width: 235px;
     height: 80px;
+    cursor: pointer;
     border: 1px solid transparent;
+    transition: background-color 0.3s, color 0.3s; 
     border-radius: 5px;
+}
+.btn--bg-black:hover {
+    background-color: #fff; 
+    color: #000000; 
+    border: 1px solid #000; 
+}
+.btn--bg-black{
+    background-color:black;
+    color: white; 
 }
 p.description-work {
     padding: 30px 0px;
 }
-.works{
+.lets-work h2{
     font-size: 32px;
     padding-right: 100px;
 }
@@ -244,9 +252,7 @@ ul.social-media{
     gap: 2rem;
     padding-bottom: 70px;
 }
-footer.footer {
-    padding-top: 24px;
-} 
+
 @media  ( min-width: 768px ) {
     .bio-content{
         display: flex;
@@ -283,6 +289,9 @@ footer.footer {
         justify-content: space-around;
         align-items: flex-start;
     }
+    footer.footer {
+        padding-top: 24px;
+    }    
     .lets-work,
     .form {
         flex-basis: 50%;
@@ -290,7 +299,7 @@ footer.footer {
     p.description-work {
         padding: 50px 150px 0px 98px;
     }
-    strong.works {
+    .lets-work h2 {
         padding-left: 100px;
     }
     .images-contact{
