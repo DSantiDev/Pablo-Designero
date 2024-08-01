@@ -1,0 +1,25 @@
+.form-input{
+    width: 100%;
+    height: var(--height-input);
+    outline:none; 
+    border: none;
+    resize: none;
+    border-radius: .5rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.7rem;
+    padding: 2.5rem;
+}
+.form-contact textarea,
+.form-contact input{
+    background-color: var(--anti-flash-white);
+    border: 0;
+}
+textarea.form-input{
+    height: calc( var(--height-input) * 3); 
+    font-size: 3rem;
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 1.7rem;
+    color: var(--charleston-green-v1);  
+}

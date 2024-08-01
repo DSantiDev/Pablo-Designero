@@ -1,0 +1,21 @@
+:root {
+    /** Colors */
+    --black: #00000000;
+    --charleston-green-v1: #2D2D2D;
+    --charleston-green-v2: #2B2B2B;
+    --paolo-veronese-green: #009379;
+    --pink-lace: #F9E6F0;
+    --piggy-pink: #F6DCE9;
+    --anti-flash-white: #F3F3F3;
+    --white: #ffffff;
+    
+
+    /** Forms*/
+    --height-input: 69px;  
+
+    /** Anchors*/
+    --color-menu-link: var(--charleston-green-v1);
+
+    /** Fonts*/
+    --overall-font-size: 62.5%;
+}

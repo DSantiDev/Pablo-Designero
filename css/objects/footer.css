@@ -1,0 +1,16 @@
+.description-work {
+    padding: 3rem 0;
+}
+.lets-work h2{
+    font-size: 3.2rem;
+    padding-right: 10rem;
+}
+.work {
+    display: flex;
+}
+.social-media{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    padding-bottom: 7rem;
+}

@@ -1,0 +1,20 @@
+.avatar-name {
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}  
+.name-designer{
+    display: block;
+    text-decoration: underline;
+} 
+.profession {
+    padding: .5rem 20rem 0 0;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+.biography {
+    padding: 10rem 10rem 10rem 0;
+}
+.bio{
+    background-color: var(--piggy-pink);
+}

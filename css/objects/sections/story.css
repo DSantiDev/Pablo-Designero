@@ -1,0 +1,21 @@
+.paragraf *:nth-child(1),
+.paragraf *:nth-child(3) {
+    background-color: var( --paolo-veronese-green);
+    color: var(--white);
+    font-weight: 500;
+    padding: .8rem 0;
+}
+.container.his-content {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.history {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 10rem 10rem 5rem 0;
+}
+.linea {
+    border-bottom: solid;
+    margin: 9rem;
+}

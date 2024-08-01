@@ -1,0 +1,64 @@
+.logo {
+    font-size: 2rem;
+     font-weight: 600;
+     text-decoration: none;
+     color: initial;
+ }
+.menu-item a {
+    text-decoration: none;
+    color: var( --white );
+}
+.menu-item a:hover {
+    color: #747474;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.abrir-menu {
+    color: #000000;
+}
+
+.cerrar-menu {
+    color: var(--white);
+}
+
+.nav.visible{
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    font-size: 2.5rem;
+    padding: 4.8rem;
+    box-shadow: 0 0 0 300vmax #00000080;
+}
+.menu-item {
+    padding-bottom: 3.2rem;
+}
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-menu {
+    list-style-type: none;
+}
+.nav{
+    display: none;
+}
+.avatar-image {
+    padding-top: 10rem;
+}
