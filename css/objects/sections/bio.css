@@ -2,7 +2,10 @@
     padding-top: 1.5rem;
     font-size: 1.7rem;
     font-weight: 700;
-}  
+}
+.avatar-image {
+    padding-top: 10rem;
+}
 .name-designer{
     display: block;
     text-decoration: underline;

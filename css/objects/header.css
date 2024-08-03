@@ -20,11 +20,6 @@
     background-color: transparent;
     cursor: pointer;
 }
-
-.abrir-menu {
-    color: #000000;
-}
-
 .cerrar-menu {
     color: var(--white);
 }
@@ -58,7 +53,4 @@
 }
 .nav{
     display: none;
-}
-.avatar-image {
-    padding-top: 10rem;
 }
