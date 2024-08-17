@@ -14,5 +14,6 @@
 }
 .btn--bg-black{
     background-color:black;
-    color: white; 
+    color: white;
+    transition: 1s;
 }

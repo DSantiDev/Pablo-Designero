@@ -7,11 +7,15 @@
 .menu-item a {
     text-decoration: none;
     color: var( --white );
+    transition: .5s;
 }
 .menu-item a:hover {
-    color: #747474;
+    color: #F6DCE9;
 }
 
+.abrir-toggle{
+    display: none;
+}
 .abrir-menu,
 .cerrar-menu {
     display: block;
@@ -20,14 +24,30 @@
     background-color: transparent;
     cursor: pointer;
 }
+.bi-list{
+    color: black;
+    transition: .5s;
+}
 .cerrar-menu {
     color: var(--white);
+    position: fixed;
+    top: 1rem;
+    right: 3rem;
+    font-size: 3rem;
+    transition: .5s;
 }
-
-.nav.visible{
-    opacity: 0;
-    visibility: hidden;
+.bi-list:hover{
+    color: #F6DCE9;
+}
+.cerrar-menu:hover{
+    color: #F6DCE9;
+}
+#abrir:checked ~ #nav,
+#abrir:checked ~ .background{
     display: flex;
+}
+.nav{
+    display: none;
     flex-direction: column;
     align-items: end;
     gap: 1.6rem;
@@ -35,18 +55,25 @@
     top: 0;
     right: 0;
     bottom: 0;
+    z-index: 2;
     background-color: black;
     font-size: 2.5rem;
     padding: 4.8rem;
-    box-shadow: 0 0 0 300vmax #00000080;
+    box-shadow: 0 0 0 300rem #00000080;
+}
+.background{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 .menu-item {
     padding-bottom: 3.2rem;
 }
-.nav.visible {
-    opacity: 1;
-    visibility: visible;
-}
+
 
 .main-menu {
     list-style-type: none;

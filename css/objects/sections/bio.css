@@ -1,3 +1,13 @@
+.description::after{
+    content: "";
+    display: block;
+    width: 50%; 
+    height: .5rem;
+    background: #000000; 
+    margin: 4rem auto; 
+    border-radius: 1rem; 
+}
+
 .avatar-name {
     padding-top: 1.5rem;
     font-size: 1.7rem;

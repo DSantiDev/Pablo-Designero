@@ -14,27 +14,30 @@
 </head>
 <body>
     <header>
-        <div class="container logo-navbar"> 
-            <div><a title="logo" href="index.html"><img class="logo" src="./images/Logo.png" alt="image-bereal" /></a></div>
-            <button id="abrir" class="abrir-menu">
-                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="21" cy="4" r="4" fill="#2D2D2D"/>
-                <circle cx="21" cy="19" r="4" fill="#2D2D2D"/>
-                <circle cx="4" cy="4" r="4" fill="#2D2D2D"/>
-                <circle cx="4" cy="19" r="4" fill="#2D2D2D"/>
+        <div class="container logo-navbar">
+            <div>
+                <a title="logo" href="index.html">
+                    <img class="logo" src="./images/Logo.png" alt="image-logo" />
+                </a>
+            </div>
+            <input type="checkbox" id="abrir" class="abrir-toggle">
+            <label for="abrir" class="abrir-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                 </svg>
-            </button>
+            </label>
+            <label for="abrir" class="background"></label>
             <nav class="nav" id="nav">
-                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
-                <ul class="main-menu" id="quitar">
-                    <li class="menu-item" >
-                        <strong><a href="#bio" >About</a></strong>
+                <label for="abrir" class="cerrar-menu"><i class="bi bi-x"></i></label>
+                <ul class="main-menu">
+                    <li class="menu-item">
+                        <strong><a href="#bio">About</a></strong>
                     </li>
                     <li class="menu-item">
-                        <strong><a href="#desc" >Work</a></strong>
+                        <strong><a href="#desc">Work</a></strong>
                     </li>
                     <li class="menu-item">
-                        <strong><a href="#form" >Contact</a></strong>
+                        <strong><a href="#form">Contact</a></strong>
                     </li>
                 </ul>
             </nav>
@@ -44,25 +47,27 @@
         <section class="bio" id="bio">
             <div class="container bio-content">
                 <div class="avatar">
-                    <img class="avatar-image" src="./images/pablo-designero.png" alt="Foto: Pablo Designero" >
-                    <h1 class="avatar-name"> 
-                        <span class="name-designer">Pablo Designero</span> 
+                    <img class="avatar-image" src="./images/pablo-designero.png" alt="Foto: Pablo Designero">
+                    <h1 class="avatar-name">
+                        <span class="name-designer">Pablo Designero</span>
                         <span class="profession"> Designer & Unicorn Trainer</span>
                     </h1>
                 </div>
                 <div class="biography">
-                   <strong>Bio:</strong>
-                    <p class="biography-details">Father of 3 humans, 5 unicorns & 2 dogs,I design since I can remember it. 
-                        I often get asked where I get my inspiration from: in everyday's lil' details. And sometimes in 
+                    <strong>Bio:</strong>
+                    <p class="biography-details">Father of 3 humans, 5 unicorns & 2 dogs,I design since I can remember
+                        it.
+                        I often get asked where I get my inspiration from: in everyday's lil' details. And sometimes in
                         leftover food I find in my beard.</p>
                 </div>
             </div>
-        </section> 
+        </section>
         <section class="description" id="desc">
             <div class="container his-content">
                 <div class="historia">
-                    <h2 class="history">When I was 5, I got adbucted by a unicorn family. When they returned me to earth, 
-                        I joined a designer school. But, fo’ real, what I learned with my kidnaptive family really gave 
+                    <h2 class="history">When I was 5, I got adbucted by a unicorn family. When they returned me to
+                        earth,
+                        I joined a designer school. But, fo’ real, what I learned with my kidnaptive family really gave
                         an edge to my creative language.
                     </h2>
                 </div>
@@ -70,27 +75,26 @@
             <div class="container his-paragraf">
                 <div class="paragraf">
                     <p>Being a human is way too complicated. Time to be a unicorn.</p>
-                    <p>Try it and you’ll see. Then your Figma files are just gonna 
+                    <p>Try it and you’ll see. Then your Figma files are just gonna
                         fly in color, glitter, interactions and autolayout.</p>
                     <p>Also, grow a beard. Check my bio if that is not clear.</p>
-                    <p>Available for projects, from Monday to Tuesday, mainy between 
+                    <p>Available for projects, from Monday to Tuesday, mainy between
                         14 and 16. (Unless there is a unicorn race on TV - DUH -in that case, come back another day).
                     </p>
-                    <p>Projects include, RocknRoll covers, furniture refurbishing, Unicorn potty 
+                    <p>Projects include, RocknRoll covers, furniture refurbishing, Unicorn potty
                         training and more.
                     </p>
                 </div>
             </div>
         </section>
     </main>
-    <div class="linea"></div>
     <footer class="footer">
         <div class="container-from" id="form">
             <div class="container content">
                 <div class="lets-work">
                     <h2>Let’s work together</h2>
-                    <p class="description-work">This is a template Figma file, turned into code using Anima. 
-                        Learn more at AnimaApp.com This is a  template Figma file, turned into code using Anima. 
+                    <p class="description-work">This is a template Figma file, turned into code using Anima.
+                        Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima.
                         Learn more at AnimaApp.com</p>
                     <div class="images-contact">
                         <ul class="social-media">
@@ -119,25 +123,25 @@
                                     <img class="bereal" src="./images/Bereal.png" alt="image-bereal" />
                                 </a>
                             </li>
-                        </ul> 
-                     </div>     
+                        </ul>
+                    </div>
                 </div>
-                <div class="form">                  
+                <div class="form">
                     <form id="contactForm" class="form-contact">
                         <div class="form-name">
                             <input id="name" class="form-input" type="text" placeholder="Nombre" required>
                         </div>
                         <div class="form-email">
-                            <input id="email" class="form-input" type="email" placeholder="Correo electrónico" required>    
+                            <input id="email" class="form-input" type="email" placeholder="Correo electrónico" required>
                         </div>
                         <div class="form-type">
-                            <textarea id="message" class="form-input" placeholder="Mensaje" required ></textarea>
+                            <textarea id="message" class="form-input" placeholder="Mensaje" required></textarea>
                         </div>
                         <div class="form-button">
                             <button class="btn btn--bg-black" type="submit"><strong>Submit</strong></button>
                         </div>
-                    </form>   
-                </div>  
+                    </form>
+                </div>
             </div>
         </div>
     </footer>

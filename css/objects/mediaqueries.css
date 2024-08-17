@@ -1,7 +1,4 @@
 @media screen and (min-width: 768px) {
-    .nav{
-        display: block;
-    }
     header {
         display: flex;
         align-items: center;
@@ -24,8 +21,12 @@
         text-decoration: none;
         color:var(--color-menu-link)
     }
-    .nav.visible{
-        display: none;
+    .nav{
+        display: block;
+        background-color: transparent;
+        font-size: 1.7rem;
+        box-shadow: none;
+        padding: 41px;
     }
     .abrir-menu,
     .cerrar-menu {
