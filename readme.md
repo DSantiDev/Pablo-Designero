@@ -26,4 +26,3 @@ console.log("Pablo Designero")
 | Nombre          | Ciudad |
 | --------------- | ------ |
 | David Rodriguez | Bogotá |
-| Duvan Lopez     | Bogotá |
